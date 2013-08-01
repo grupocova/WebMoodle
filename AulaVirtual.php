@@ -7,6 +7,7 @@
 <link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.min.css" />
 <link rel="stylesheet" type="text/css" href="css/prettify.css" />
 <link rel="stylesheet" type="text/css" href="css/docs.css" />
+<link rel="stylesheet" type="text/css" href="css/EBase.css" />
 </head>
 
 <body>
@@ -37,7 +38,21 @@
 
 <!-- Principal -->
 <div class="container">
-<div class="row-fluid">
+<div class="row-fluid well">
+  <ul>
+    <li class="span3">
+      <a href="#">
+        <img data-src="holder.js/260x100" alt="">
+      </a>
+    </li>
+    <li class="span3 offset6">
+      <a href="#">
+        <img data-src="holder.js/260x100" alt="">
+      </a>
+    </li>
+  </ul>
+</div>
+<div class="row-fluid well">
   <div class="span3"> 
   	<h3>AULA Virtual</h3>
     <h4>Facultad de Ingeniería y Arquitectura</h4>
@@ -61,34 +76,28 @@
       </div>       
     </form>
   </div>
-  <div class="span9 hero-unit">
-   
+  
+  <div class="span9 hero-unit">   
     <h1>Heading</h1>
     <p>Tagline</p>
-    <p>
-    <a class="btn btn-primary btn-large">
-    Learn more
-    </a>
-    </p>
-             
+    <p><a class="btn btn-primary btn-large">Learn more</a></p>             
   </div>
 </div>
 </div>
 
 <!-- footer -->
-<footer class="footer">
- <div class="container">
-        <p>Designed and built with all the love in the world by <a href="http://twitter.com/mdo" target="_blank">@mdo</a> and <a href="http://twitter.com/fat" target="_blank">@fat</a>.</p>
-        <p>Code licensed under <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache License v2.0</a>, documentation under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
-        <p><a href="http://glyphicons.com">Glyphicons Free</a> licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
-        <ul class="footer-links">
-          <li><a href="http://blog.getbootstrap.com">Blog</a></li>
-          <li class="muted">&middot;</li>
-          <li><a href="https://github.com/twitter/bootstrap/issues?state=open">Issues</a></li>
-          <li class="muted">&middot;</li>
-          <li><a href="https://github.com/twitter/bootstrap/blob/master/CHANGELOG.md">Changelog</a></li>
-        </ul>
-      </div>
+<footer>
+  <div class="container row-fluid">    
+    <div class="icosocial span4 offset4">
+      <p class="text-center">© Facultad de Ingeniería y Arquitectura <br />2013 UPeU</p>
+      <ul>        
+      <li><a href="#" id="gog"><span>Google +</span></a></li>
+      <li><a href="#" id="you"><span>Youtube</span></a></li>
+      <li><a href="#" id="twit"><span>Twitter</span></a></li>        
+      <li><a href="#" id="face"><span>Facebook</span></a></li>        
+      </ul>
+    </div>      
+  </div>
 </footer>
 <script src="js/jquery.js"></script>
   <script src="js/bootstrap-transition.js"></script>
