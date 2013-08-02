@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+/* CSS Document */
+body { padding-top: 70px; }
+
+.navprin{  
+  
+  background:#FFF;
+  /*background: -webkit-linear-gradient(#FFF 40%, #77102a 200%);
+  background: -moz-linear-gradient(#FFF 40%, #77102a 200%);
+  background: -o-linear-gradient(#FFF, #77102a);*/
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 5px 5px rgba(119, 16, 42, 0.6);
+     -moz-box-shadow: 0 5px 5px rgba(119, 16, 42, 0.6);
+          box-shadow: 0 5px 5px rgba(119, 16, 42, 0.6);
+  -webkit-background-clip: padding-box;
+     -moz-background-clip: padding;
+          background-clip: padding-box;	
+}
+.navprin ul li a{
+	color:#77102a;
+	font-weight:bold;
+}
+
+.contenedor{
+	background:#77102a;
+	color:#FFF	
+}
+
+.footer{
+	text-align:center;
+}
+.footer p {
+  margin-bottom: 0;
+  color: #777;
+}
+.footer-links {
+  margin: 10px 0;
+}
+.footer-links li {
+  display: inline;
+  padding: 0 2px;
+}
+.footer-links li:first-child {
+  padding-left: 0;
+}
+
+.icosocial ul{
+	list-style-type:none;
+	list-style-position:inherit;
+	margin-right:10px;
+}
+.icosocial li{
+	display:inline-block;
+	margin:0 0 0 15px;
+}
+.icosocial a{
+	display:block;
+	width:30px;
+	height:30px;
+	background-image:url(../img/icoSociales.png);
+}
+.icosocial a span{
+	display:none;	
+}
+.icosocial #face{background-position:0 0}
+.icosocial #twit{background-position:-35px 0}
+.icosocial #you{background-position:-70px 0}
+.icosocial #gog{background-position:-105px 0}
+
+.icosocial #face:hover{background-position:0 30px}
+.icosocial #twit:hover{background-position:-35px 30px}
+.icosocial #you:hover{background-position:-70px 30px}
+.icosocial #gog:hover{background-position:-105px 30px}
