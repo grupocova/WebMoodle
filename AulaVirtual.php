@@ -36,24 +36,24 @@
 
 <!-- Principal -->
 <div class="container">
-<div class="row">
-  <!--<ul>
+<div class="row logo">
+  <ul>
     <li class="col-lg-6">
       <a href="#">
-        <img data-src="holder.js/260x100" alt="">
+        <img src="photos/logo_upeu.png"  alt="">
       </a>
     </li>
     <li class="col-lg-6">
       <a href="#">
-        <img data-src="holder.js/260x100" alt="">
+        <img  alt="">
       </a>
     </li>
-  </ul>-->
+  </ul>
 </div>
 
-<div class="row">
-  <div class="col-lg-3 panel"> 
-  	<div class="panel-heading contenedor">
+<div class="row ">
+  <div class="col-lg-3 panel cont" id="cont-login"> 
+  	<div class="panel-heading head">
       <h3 class="panel-title">Bienvenido</h3>
     </div>
     <form>
@@ -72,10 +72,21 @@
             <input type="checkbox" name="rememberusername" id="rememberusername" value="1"> Recordarme
           </label>
         </div>
-        <button type="submit" class="btn btn-default">Ingresar</button>
+        <button type="submit" class="btn btn-small btn-default">Ingresar</button>
       </fieldset>
     </form>
       
+  </div>
+  
+  <div class="col-lg-2 panel cont cont-col" id="cont-login-op"> 
+    <ul class="list-group">
+      <li class="list-group-item"><a href="#">Home</a></li>
+      <li class="list-group-item"><a href="#">Profile</a></li>
+      <li class="list-group-item"><a href="#">Messages</a></li>
+      <li class="list-group-item"><a href="#">Home</a></li>
+      <li class="list-group-item"><a href="#">Profile</a></li>
+      <li class="list-group-item"><a href="#">Messages</a></li>
+    </ul>  
   </div>
   
   <div class="col-lg-7 hero-unit">   
@@ -84,13 +95,6 @@
     <p><a class="btn btn-primary btn-large">Learn more</a></p>             
   </div>
   
-  <div class="col-lg-2 panel contenedor">   
-    <ul class="nav nav-pills nav-stacked">
-      <li class="active"><a href="#">Home</a></li>
-      <li><a href="#">Profile</a></li>
-      <li><a href="#">Messages</a></li>
-    </ul>             
-  </div>
 </div>
 </div>
 
