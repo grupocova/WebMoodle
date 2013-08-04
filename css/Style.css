@@ -1,9 +1,29 @@
 @charset "utf-8";
 
 /* CSS Document */
-body { padding-top: 70px; }
+body { padding-top: 70px;
+}
+
+.fondoR{
+	background-color: rgba(0, 0, 0, 0.5);
+	background-color: transparent;
+	background-image: -webkit-gradient(linear, 0 top, 100% top, from(rgba(0, 0, 0, 0.0001)), to(rgba(0, 0, 0, 0.5)));
+	background-image: -webkit-linear-gradient(left, color-stop(rgba(0, 0, 0, 0.0001) 0), color-stop(rgba(0, 0, 0, 0.5) 100%));
+	background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0.0001) 0, rgba(0, 0, 0, 0.5) 100%);
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0.0001) 0, rgba(0, 0, 0, 0.5) 100%);
+}
+
+.fondoL{
+	background-color: rgba(0, 0, 0, 0.0001);
+	background-color: transparent;
+	background-image: -webkit-gradient(linear, 0 top, 100% top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.0001)));
+	background-image: -webkit-linear-gradient(left, color-stop(rgba(0, 0, 0, 0.5) 0), color-stop(rgba(0, 0, 0, 0.0001) 100%));
+	background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0.5) 0, rgba(0, 0, 0, 0.0001) 100%);
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5) 0, rgba(0, 0, 0, 0.0001) 100%); 
+	
+}
 .logo{
-	margin:5px 0 50px 0;;
+	margin:5px 0 40px 0;;
 	
 }
 .logo ul{
@@ -12,6 +32,9 @@ body { padding-top: 70px; }
 }
 .logo ul li{
 	text-decoration:none;
+}
+#slider{
+	margin:5px 0 40px 0;;
 }
 
 .navprin{    
@@ -29,8 +52,12 @@ body { padding-top: 70px; }
           background-clip: padding-box;	
 }
 .navprin ul li a{
-	color:#77102a;
+	color:rgba(119, 16, 42, 0.8);
 	font-weight:bold;
+}
+
+.navprin ul li a:hover{
+	color:rgba(119, 16, 42, 0.4);
 }
 
 .cont{
@@ -67,15 +94,18 @@ body { padding-top: 70px; }
 	background-color:transparent;
 }
 #cont-login-op ul li{
-	border-bottom:2px solid rgba(255, 255, 255, 0.5);
+	border-bottom:1px solid rgba(255, 255, 255, 0.2);
 	border-right:0;
 	border-left:0;
 	border-top:0;
 	border-radius:0;
-	-webkit-box-shadow: 0 5px 10px rgba(255, 255, 255, 0.1);
-     -moz-box-shadow: 0 5px 10px rgba(255, 255, 255, 0.1);
-          box-shadow: 0 5px 10px rgba(255, 255, 255, 0.1);
 }
+#cont-login-op ul li a{
+	color:#FFF;
+	font-size:smaller;
+	text-decoration:none;
+}
+
 	
 
 .footer{

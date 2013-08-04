@@ -15,7 +15,7 @@
 
 <div class="navbar navbar-fixed-top navprin">
   <div class="container">
-    <a class="navbar-brand" href="#">Project name</a>
+    <a class="navbar-brand" href="#">AULA Virtual</a>
     <div class="nav-collapse collapse">
       <ul class="nav navbar-nav">
         <li><a href="#">UPeU</a></li>
@@ -37,22 +37,54 @@
 <!-- Principal -->
 <div class="container">
 <div class="row logo">
-  <ul>
-    <li class="col-lg-6">
-      <a href="#">
-        <img src="photos/logo_upeu.png"  alt="">
+  <div class="col-lg-3 col-offset-1">  
+    <a href="#">
+      <img src="photos/logo_upeu.png"  alt="">
+    </a>
+  </div>
+  
+  <div class="col-lg-7" id="slider">    
+    <div id="carousel-example-generic" class="carousel slide">  
+      <!-- Indicators -->
+      <ol class="carousel-indicators" >
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+      </ol>
+    
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="photos/slide01.png" alt="">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Example headline.</h1>            
+            </div>
+          </div>
+        </div>
+        
+        <div class="item">
+          <img src="photos/slide02.png" alt="">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Example headline.</h1>            
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Controls -->
+      <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+        <span class="icon-prev"></span>
       </a>
-    </li>
-    <li class="col-lg-6">
-      <a href="#">
-        <img  alt="">
-      </a>
-    </li>
-  </ul>
+      <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+        <span class="icon-next"></span>
+      </a> 
+    </div>    
+  </div>
+  
 </div>
 
-<div class="row ">
-  <div class="col-lg-3 panel cont" id="cont-login"> 
+<div class="row">
+  <div class="col-lg-4 col-offset-3 panel cont" id="cont-login"> 
   	<div class="panel-heading head">
       <h3 class="panel-title">Bienvenido</h3>
     </div>
@@ -77,24 +109,21 @@
     </form>
       
   </div>
-  
+    
   <div class="col-lg-2 panel cont cont-col" id="cont-login-op"> 
-    <ul class="list-group">
-      <li class="list-group-item"><a href="#">Home</a></li>
-      <li class="list-group-item"><a href="#">Profile</a></li>
-      <li class="list-group-item"><a href="#">Messages</a></li>
-      <li class="list-group-item"><a href="#">Home</a></li>
-      <li class="list-group-item"><a href="#">Profile</a></li>
-      <li class="list-group-item"><a href="#">Messages</a></li>
+    <ul class="list-group">      
+      <li class="list-group-item"><span class="glyphicon glyphicon-pencil"></span><a href="#"> Registrar</a></li>
+      <li class="list-group-item"><span class="glyphicon glyphicon-lock"></span><a href="#"> Olvido contraseña?</a></li>
+      <li class="list-group-item"><span class="glyphicon glyphicon-info-sign"></span><a href="#"> Información</a></li>
     </ul>  
   </div>
   
-  <div class="col-lg-7 hero-unit">   
+  <!--<div class="col-lg-7 hero-unit">   
     <h1>Heading</h1>
     <p>Tagline</p>
     <p><a class="btn btn-primary btn-large">Learn more</a></p>             
-  </div>
-  
+  </div>-->
+       
 </div>
 </div>
 
