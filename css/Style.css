@@ -61,14 +61,13 @@ body { padding-top: 70px;
 }
 
 .cont{
-	border:	1px solid rgba(119, 16, 42, 0.5);
+	border:	1px solid rgba(119, 16, 42, 0.8);
 	background:#FFF;
 }
 .cont .head{
   color:#FFF;	
   background-color: #77102a;
-  border-bottom: 1px solid #77102a;
-  border:	1px solid rgba(119, 16, 42, 0.5);
+  border:1px solid #77102a;
 }
 .cont-col{
 	 background-color: #77102a;

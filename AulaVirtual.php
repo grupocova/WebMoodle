@@ -37,13 +37,13 @@
 <!-- Principal -->
 <div class="container">
 <div class="row logo">
-  <div class="col-lg-3 col-offset-1">  
+  <div class="col-lg-3 col-offset-1 panel">  
     <a href="#">
       <img src="photos/logo_upeu.png"  alt="">
     </a>
   </div>
   
-  <div class="col-lg-7" id="slider">    
+  <div class="col-lg-7  panel" id="slider">    
     <div id="carousel-example-generic" class="carousel slide">  
       <!-- Indicators -->
       <ol class="carousel-indicators" >
@@ -79,12 +79,12 @@
         <span class="icon-next"></span>
       </a> 
     </div>    
-  </div>
-  
+  </div>  
 </div>
 
 <div class="row">
-  <div class="col-lg-4 col-offset-3 panel cont" id="cont-login"> 
+    <!--Login-->
+    <div class="col-lg-3 col-offset-3 panel cont " id="cont-login">
   	<div class="panel-heading head">
       <h3 class="panel-title">Bienvenido</h3>
     </div>
@@ -107,25 +107,18 @@
         <button type="submit" class="btn btn-small btn-default">Ingresar</button>
       </fieldset>
     </form>
-      
-  </div>
+    </div> 
     
-  <div class="col-lg-2 panel cont cont-col" id="cont-login-op"> 
-    <ul class="list-group">      
-      <li class="list-group-item"><span class="glyphicon glyphicon-pencil"></span><a href="#"> Registrar</a></li>
-      <li class="list-group-item"><span class="glyphicon glyphicon-lock"></span><a href="#"> Olvido contraseña?</a></li>
-      <li class="list-group-item"><span class="glyphicon glyphicon-info-sign"></span><a href="#"> Información</a></li>
-    </ul>  
-  </div>
-  
-  <!--<div class="col-lg-7 hero-unit">   
-    <h1>Heading</h1>
-    <p>Tagline</p>
-    <p><a class="btn btn-primary btn-large">Learn more</a></p>             
-  </div>-->
-       
+    <!--Opciones-->
+    <div class="col-lg-3 panel cont cont-col" id="cont-login-op"> 
+      <ul class="list-group">      
+        <li class="list-group-item"><span class="glyphicon glyphicon-pencil"></span><a href="#"> Registrar</a></li>
+        <li class="list-group-item"><span class="glyphicon glyphicon-lock"></span><a href="#"> Olvido contraseña?</a></li>
+        <li class="list-group-item"><span class="glyphicon glyphicon-info-sign"></span><a href="#"> Información</a></li>
+      </ul>  
+    </div> 
 </div>
-</div>
+</div><!-- Fin Principal -->
 
 <!-- footer -->
 <footer class="footer">
