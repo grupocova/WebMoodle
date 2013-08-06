@@ -83,6 +83,10 @@ body {
 	background: #77102a;
 	border:1px solid #77102a;
 }
+#cont-login form button:hover{
+	background: #af1f43;
+	border:1px solid #af1f43;
+}
 
 #cont-login-op {
 	border-top-left-radius:0;
@@ -97,7 +101,7 @@ body {
   	background: -moz-linear-gradient(#77102a, #af1f43,#77102a);
   	background: -o-linear-gradient(#77102a, #af1f43,#77102a);
 
-  	margin-bottom: 200px;
+  	margin-bottom: 150px;
 }
 #cont-login-op ul{
 	background: transparent;
@@ -111,12 +115,17 @@ body {
 	padding-left: 2px;
 	padding-right: 2px;
 }
+
+#cont-login-op ul li:hover{
+	background: rgba(255, 255, 255, 0.2);
+}
 #cont-login-op ul li a{
 	color:#fff;
 	font-size: smaller;
 	font-weight: bold;
 	text-decoration:none;
 }
+
 #cont-login-op ul li a div{
 	margin-right: 5px;
 }
@@ -179,6 +188,7 @@ body {
 	width: 20px;
 	height: 20px;
 	background-image:url(../img/iconos.png);
+	margin-left: 5px;
 }
 .iconos #ico-reg{
 	background-position: 0 0}
@@ -186,3 +196,5 @@ body {
 	background-position: -20px 0}
 .iconos #ico-unlock{
 	background-position: -40px 0}
+
+

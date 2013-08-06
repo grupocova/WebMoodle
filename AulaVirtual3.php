@@ -15,7 +15,7 @@
 <!-- Navegacion Superior -->
 <div class="navbar navbar-fixed-top navprin">
   <div class="container">
-    <a class="navbar-brand" href="#">AULA Virtual</a>
+    <a class="navbar-brand" href="#"><img src="photos/minilogo_AV.png"  alt=""></a>
     <div class="nav-collapse collapse">
       <ul class="nav navbar-nav">
         <li><a href="#">UPeU</a></li>
@@ -116,7 +116,7 @@
       <p>©2013 Universidad Peruana Uni&oacute;n - Facultad de Ingeniería y Arquitectura</p>
       <p>Altura Km. 19.5 Carretera Central, Ñaña-Lima <br />
         Telf.: 01-6186300 - Fax 01-6186-339 <br />
-        Correo: webmaster@upeu.edu.pe <br />
+        Correo: webmaster.fia@upeu.edu.pe <br />
         Lima - Perú</p>
       <br />
       <ul class="footer-links">        
