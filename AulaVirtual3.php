@@ -29,25 +29,43 @@
 </div>
 
 <!-- Contenido -->
-<div class="container panel">
+<div class="body-container">
+<div class="container">
 
-  <div class="row logo">
-  <div class="col-lg-2">  
-    <a href="#">
+  <div class="row encabezado">
+  <div class="col-lg-12">  
+    <a href="#" class="logo logo-left">
       <img src="photos/logo_upeu.png"  alt="">
     </a>
-  </div>  
-  <div class="col-lg-2 col-offset-8">  
-    <a href="#">
+    <a href="#" class="logo logo-right">
       <img src="photos/logo_AV.png"  alt="">
     </a>
-  </div> 
+  </div>
   </div>
 
 <!-- Principal -->
   <div class="row">    
-    <div class="col-lg-3 panel">
+    <div class="col-lg-5 col-offset-1">
+      <div class="panel " id="cont-info">
 
+        <ul id="myTab" class="nav nav-tabs">
+        <li class="active"><a href="#home" data-toggle="tab">Home</a></li>
+        <li><a href="#profile" data-toggle="tab">Profile</a></li>        
+      </ul>
+      <div id="myTabContent" class="tab-content">
+        <div class="tab-pane fade in active" id="home">
+          <p>Raw denim you probably haven't heard of them jean shorts Austin. 
+            Nesciunt tofu stumptown aliqua, retro synth master cleanse.
+            Mustache cliche tempor, williamsburg carles vegan helvetica.</p>
+        </div>
+        <div class="tab-pane fade" id="profile">
+          <p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. 
+            Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan 
+            four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft</p>
+        </div>
+      </div>
+
+      </div>
     </div>
 
     <!--Login-->
@@ -89,15 +107,19 @@
 </div><!-- Fin Principal -->
 
 </div><!-- Fin contenedor -container -->
-
+</div>
 
 <!-- footer -->
 <footer class="footer">
   <div class="row">   
-    <div class="icosocial col-lg-12 panel">
+    <div class="icosocial col-lg-12">
       <p>©2013 Universidad Peruana Uni&oacute;n - Facultad de Ingeniería y Arquitectura</p>
+      <p>Altura Km. 19.5 Carretera Central, Ñaña-Lima <br />
+        Telf.: 01-6186300 - Fax 01-6186-339 <br />
+        Correo: webmaster@upeu.edu.pe <br />
+        Lima - Perú</p>
       <br />
-      <ul>        
+      <ul class="footer-links">        
       <li><a href="#" id="face"><span>Facebook</span></a></li>
       <li><a href="#" id="twit"><span>Twitter</span></a></li>
       <li><a href="#" id="you"><span>Youtube</span></a></li>

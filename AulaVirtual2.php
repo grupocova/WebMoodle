@@ -29,67 +29,57 @@
 </div>
 
 <!-- Contenido -->
-<div class="container panel">
+<div id="slider">
 
-  <div class="row logo">
-  <div class="col-lg-2">  
-    <a href="#">
-      <img src="photos/logo_upeu.png"  alt="">
-    </a>
-  </div>  
-  <div class="col-lg-2 col-offset-8">  
-    <a href="#">
-      <img src="photos/logo_AV.png"  alt="">
-    </a>
-  </div> 
+  <div id="carousel-example-generic" class="carousel slide">  
+
+    <div class="container">
+
+    <div class="row">
+      <div class="col-lg-2">  
+         <a href="#">
+          <img src="photos/logo_upeu.png"  alt="">
+        </a>
+      </div>  
+    </div>
   </div>
 
-<!-- Principal -->
-  <div class="row">    
-    <div class="col-lg-3 panel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators" >
+      <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    </ol>
 
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="photos/slide01.png" alt="">
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Example headline.</h1>            
+          </div>
+        </div>
+      </div>
+        
+      <div class="item">
+        <img src="photos/slide02.png" alt="">
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Example headline.</h1>            
+          </div>
+        </div>
+      </div>
     </div>
+    <!-- Controls -->
+    <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+      <span class="icon-prev"></span>
+    </a>    
+    <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+      <span class="icon-next"></span>
+    </a>        
 
-    <!--Login-->
-    <div class="col-lg-3 panel cont" id="cont-login">
-  	<div class="panel-heading head">
-      <h3 class="panel-title">Bienvenido</h3>
-    </div>
-    <form>
-      <fieldset>
-        <legend>Iniciar Sesion</legend>
-        <div class="form-group input-group">
-          <span class="input-group-addon glyphicon glyphicon-user"></span>
-          <input type="text" class="form-control" id="username" name="username" placeholder="Usuario">
-        </div>
-        <div class="form-group input-group">
-          <span class="input-group-addon glyphicon glyphicon-lock"></span>
-          <input type="password" class="form-control" id="password" name="password" placeholder="Contraseña">
-        </div>
-        <div class="checkbox">
-          <label>
-            <input type="checkbox" name="rememberusername" id="rememberusername" value="1"> Recordarme
-          </label>
-        </div>
-        <button type="submit" class="btn btn-small btn-default">Ingresar</button>
-      </fieldset>
-    </form>
-    </div> 
-    
-    <!--Opciones-->
-    <div class="col-lg-2 panel cont" id="cont-login-op"> 
-      <ul class="list-group">      
-        <li class="list-group-item"><a href="#" class="iconos"><div id="ico-reg"></div>Registrar</a></li>
-        <li class="list-group-item"><a href="#" class="iconos"><div id="ico-inf"></div>Olvido contraseña?</a></li>
-        <li class="list-group-item"><a href="#" class="iconos"><div id="ico-unlock"></div>Información</a></li>
-      </ul>  
-    </div> 
-
-  </div><!-- Fin Fila -row -->
-</div><!-- Fin Principal -->
-
-</div><!-- Fin contenedor -container -->
-
+</div>
+</div>
 
 <!-- footer -->
 <footer class="footer">

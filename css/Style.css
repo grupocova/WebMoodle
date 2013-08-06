@@ -1,37 +1,30 @@
 @charset "utf-8";
 
 /* CSS Document */
-body { padding-top: 70px;
-}
-
-.fondoR{
-	background-color: rgba(0, 0, 0, 0.5);
-	background-color: transparent;
-	background-image: -webkit-gradient(linear, 0 top, 100% top, from(rgba(0, 0, 0, 0.0001)), to(rgba(0, 0, 0, 0.5)));
-	background-image: -webkit-linear-gradient(left, color-stop(rgba(0, 0, 0, 0.0001) 0), color-stop(rgba(0, 0, 0, 0.5) 100%));
-	background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0.0001) 0, rgba(0, 0, 0, 0.5) 100%);
-	background-image: linear-gradient(to right, rgba(0, 0, 0, 0.0001) 0, rgba(0, 0, 0, 0.5) 100%);
-}
-
-.fondoL{
-	background-color: rgba(0, 0, 0, 0.0001);
-	background-color: transparent;
-	background-image: -webkit-gradient(linear, 0 top, 100% top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.0001)));
-	background-image: -webkit-linear-gradient(left, color-stop(rgba(0, 0, 0, 0.5) 0), color-stop(rgba(0, 0, 0, 0.0001) 100%));
-	background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0.5) 0, rgba(0, 0, 0, 0.0001) 100%);
-	background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5) 0, rgba(0, 0, 0, 0.0001) 100%); 
+body { 
+	padding-top: 70px;
 	
+}
+
+.body-container{
+	background-image:url(../img/fondo.png);
+	background-repeat: repeat-x repeat-y; 
+}
+
+.encabezado{
+	margin:5px 0 40px 0;	
 }
 .logo{
-	margin:5px 0 40px 0;;
-	
+	padding: 5px;
 }
-.logo ul{
-	list-style-type:none;
-	list-style-position:inherit;
+
+.logo-left{
+	float: left;
+
 }
-.logo ul li{
-	text-decoration:none;
+.logo-right{
+	float: right;
+
 }
 #slider{
 	margin:5px 0 40px 0;;
@@ -65,10 +58,12 @@ body { padding-top: 70px;
 	background:#FFF;
 }
 .cont .head{
-  color:#FFF;	
-  background-color: #77102a;
-  border:1px solid #77102a;
+  color:#FFF;  
+  background: -webkit-linear-gradient(#77102a, #af1f43);
+  background: -moz-linear-gradient(#77102a, #af1f43);
+  background: -o-linear-gradient(#77102a, #af1f43);	
 }
+
 .cont-col{
 	 background-color: #77102a;
 }
@@ -76,43 +71,72 @@ body { padding-top: 70px;
 #cont-login{
 	border-top-right-radius:0;
 	border-bottom-right-radius:0;
+	border-top-left-radius: 6px;
+	border-bottom-left-radius: 6px;
 	height:280px;
 	min-height:280px;
 }
 #cont-login .head{
 	border-top-right-radius:0;
 }
+#cont-login form button{
+	background: #77102a;
+	border:1px solid #77102a;
+}
 
 #cont-login-op {
 	border-top-left-radius:0;
 	border-bottom-left-radius:0;
+	border-top-right-radius: 6px;
+	border-bottom-right-radius: 6px;
+	border-left: 0;
 	height:280px;
 	min-height:280px;
+
+	background: -webkit-linear-gradient(#77102a, #af1f43,#77102a);
+  	background: -moz-linear-gradient(#77102a, #af1f43,#77102a);
+  	background: -o-linear-gradient(#77102a, #af1f43,#77102a);
+
+  	margin-bottom: 200px;
 }
 #cont-login-op ul{
-	background-color:transparent;
+	background: transparent;
 }
 #cont-login-op ul li{
-	border-bottom:1px solid rgba(255, 255, 255, 0.2);
+	border-bottom:1px solid rgba(255, 255, 255, 0.7);
 	border-right:0;
 	border-left:0;
 	border-top:0;
 	border-radius:0;
+	padding-left: 2px;
+	padding-right: 2px;
 }
 #cont-login-op ul li a{
-	color:#FFF;
-	font-size:smaller;
+	color:#fff;
+	font-size: smaller;
+	font-weight: bold;
 	text-decoration:none;
 }
+#cont-login-op ul li a div{
+	margin-right: 5px;
+}
 
+#cont-info{
+	border: 2px dotted rgba(119, 16, 42, 0.6) ;
+	height:280px;
+	min-height:280px;
+}
 	
 
-.footer{
-	text-align:center;
+.footer{;
+	padding-top: 25px;
+  	padding-bottom: 30px;
+  	text-align: center;
+  	border-top: 1px solid #e5e5e5;
 }
 .footer p {
   margin-bottom: 0;
-  color: #777;
+  background: transparent;
 }
 .footer-links {
   margin: 10px 0;
@@ -120,9 +144,6 @@ body { padding-top: 70px;
 .footer-links li {
   display: inline;
   padding: 0 2px;
-}
-.footer-links li:first-child {
-  padding-left: 0;
 }
 
 .icosocial ul{
@@ -152,3 +173,16 @@ body { padding-top: 70px;
 .icosocial #twit:hover{background-position:-35px 30px}
 .icosocial #you:hover{background-position:-70px 30px}
 .icosocial #gog:hover{background-position:-105px 30px}
+
+.iconos div{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background-image:url(../img/iconos.png);
+}
+.iconos #ico-reg{
+	background-position: 0 0}
+.iconos #ico-inf{
+	background-position: -20px 0}
+.iconos #ico-unlock{
+	background-position: -40px 0}
