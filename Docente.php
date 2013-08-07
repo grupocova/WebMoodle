@@ -57,7 +57,7 @@
           </div>
           <div class="media">
             <a class="pull-left" href="#">
-            <img class="media-object" data-src="holder.js/90x90">
+            <img class="media-object" data-src="holder.js/80x80">
             </a>
           <div class="media-body">
             <h4 class="media-heading">Ing. Ambiental</h4>
@@ -67,7 +67,7 @@
 
           <div class="media">
             <a class="pull-left" href="#">
-            <img class="media-object" data-src="holder.js/90x90">
+            <img class="media-object" data-src="holder.js/80x80">
             </a>
           <div class="media-body">
             <h4 class="media-heading">Ing. Ambiental</h4>
@@ -77,7 +77,7 @@
 
           <div class="media">
             <a class="pull-left" href="#">
-            <img class="media-object" data-src="holder.js/90x90">
+            <img class="media-object" data-src="holder.js/80x80">
             </a>
           <div class="media-body">
             <h4 class="media-heading">Ing. Ambiental</h4>

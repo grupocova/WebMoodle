@@ -50,6 +50,8 @@
   <!-- Principal -->
   <div class="row">    
     <div class="col-lg-5 col-offset-1">
+      
+      <!--Contenido Informacion-->
       <div class="panel " id="cont-info">
         <ul id="myTab" class="nav nav-tabs md-tab-nav">
           <li class="active"><a href="#arq" data-toggle="tab">Arquitectura</a></li>
@@ -64,7 +66,7 @@
         <div class="tab-pane fade in active" id="arq">         
           <div class="media">
             <a class="pull-left" href="#">
-            <img class="media-object" data-src="holder.js/170x190">
+            <img class="media-object" data-src="holder.js/100%x180">
             </a>
           <div class="media-body">
             <h4 class="media-heading">Arquitectura</h4>
@@ -99,6 +101,7 @@
           </div>
         </div><!--Fin Ambiental-->
 
+        <!--Civil-->
         <div class="tab-pane fade" id="civ">
           <div class="media">
             <a class="pull-left" href="#">
@@ -109,7 +112,9 @@
             Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
           </div>
           </div>
-        </div>
+        </div><!--Fin Civil-->
+
+        <!--Sistemas-->
         <div class="tab-pane fade" id="sis">
           <div class="media">
             <a class="pull-left" href="#">
@@ -120,13 +125,12 @@
             Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
           </div>
           </div>
-        </div>
-
+        </div><!--Fin Sistemas-->
       </div>
+      </div><!--Contenido Informacion-->
 
-      </div>
     </div>
-
+    
     <!--Login-->
     <div class="col-lg-3 panel cont" id="cont-login">
       <div class="panel-heading head">
@@ -161,7 +165,7 @@
         <li class="list-group-item"><a href="#" class="iconos"><div id="ico-unlock"></div>Información</a></li>
       </ul>  
     </div> <!-- Fin Opciones-->
-  
+    
   </div> <!--Fin  Principal --> 
 
   <!--Iconos Sociales-->
