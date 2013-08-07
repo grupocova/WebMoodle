@@ -2,13 +2,14 @@
 
 /* CSS Document */
 body { 
-	padding-top: 70px;
-	
+	padding-top: 50px;
 }
 
 .body-container{
 	background-image:url(../img/fondo.png);
 	background-repeat: repeat-x repeat-y; 
+
+	padding-bottom: 200px;
 }
 
 .encabezado{
@@ -47,6 +48,7 @@ body {
 .navprin ul li a{
 	color:rgba(119, 16, 42, 0.8);
 	font-weight:bold;
+	font-size:medium;
 }
 
 .navprin ul li a:hover{
@@ -73,8 +75,8 @@ body {
 	border-bottom-right-radius:0;
 	border-top-left-radius: 6px;
 	border-bottom-left-radius: 6px;
-	height:280px;
-	min-height:280px;
+	height:300px;
+	min-height:300px;
 }
 #cont-login .head{
 	border-top-right-radius:0;
@@ -94,14 +96,14 @@ body {
 	border-top-right-radius: 6px;
 	border-bottom-right-radius: 6px;
 	border-left: 0;
-	height:280px;
-	min-height:280px;
+	height:300px;
+	min-height:300px;
 
 	background: -webkit-linear-gradient(#77102a, #af1f43,#77102a);
   	background: -moz-linear-gradient(#77102a, #af1f43,#77102a);
   	background: -o-linear-gradient(#77102a, #af1f43,#77102a);
 
-  	margin-bottom: 150px;
+  	margin-bottom: 20px;
 }
 #cont-login-op ul{
 	background: transparent;
@@ -131,17 +133,23 @@ body {
 }
 
 #cont-info{
-	border: 2px dotted rgba(119, 16, 42, 0.6) ;
-	height:280px;
-	min-height:280px;
+	border: 2px dotted rgba(119, 16, 42, 0.6);
+	height: 300px;
+	min-height: 300px;
 }
 	
 
-.footer{;
+.footer{
 	padding-top: 25px;
   	padding-bottom: 30px;
   	text-align: center;
   	border-top: 1px solid #e5e5e5;
+  	background: #000;
+  	position: fixed;
+  	right: 0;
+  	left: 0;
+ 	bottom: 0;
+  	margin-bottom: 0;
 }
 .footer p {
   margin-bottom: 0;
@@ -153,6 +161,11 @@ body {
 .footer-links li {
   display: inline;
   padding: 0 2px;
+}
+
+#links-sociales{
+	text-align: center;
+	margin: 35px 0;
 }
 
 .icosocial ul{

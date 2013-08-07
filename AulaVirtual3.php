@@ -12,11 +12,17 @@
 </head>
 
 <body>
+<div class="body-container">  
 <!-- Navegacion Superior -->
 <div class="navbar navbar-fixed-top navprin">
   <div class="container">
-    <a class="navbar-brand" href="#"><img src="photos/minilogo_AV.png"  alt=""></a>
-    <div class="nav-collapse collapse">
+    <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".md-navbar-collapse">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand" href="#"><!-- <img src="photos/minilogo_AV.png"  alt=""> -->Aula Virtual</a>
+    <div class="nav-collapse collapse md-navbar-collapse">
       <ul class="nav navbar-nav">
         <li><a href="#">UPeU</a></li>
         <li><a href="#">Inicio</a></li>
@@ -28,8 +34,9 @@
   </div>
 </div>
 
+
+
 <!-- Contenido -->
-<div class="body-container">
 <div class="container">
 
   <div class="row encabezado">
@@ -89,7 +96,7 @@
             <input type="checkbox" name="rememberusername" id="rememberusername" value="1"> Recordarme
           </label>
         </div>
-        <button type="submit" class="btn btn-small btn-default">Ingresar</button>
+        <button type="submit" class="btn btn-default">Ingresar</button>
       </fieldset>
     </form>
     </div> 
@@ -102,33 +109,35 @@
         <li class="list-group-item"><a href="#" class="iconos"><div id="ico-unlock"></div>Información</a></li>
       </ul>  
     </div> 
+  </div><!-- Fin Principal -row -->
 
-  </div><!-- Fin Fila -row -->
-</div><!-- Fin Principal -->
+  <!--Iconos Sociales-->
+  <div class="row">
+    <div class="col-lg-12 icosocial" id="links-sociales">
+      <ul>        
+        <li><a href="#" id="face"><span>Facebook</span></a></li>
+        <li><a href="#" id="twit"><span>Twitter</span></a></li>
+        <li><a href="#" id="you"><span>Youtube</span></a></li>
+        <li><a href="#" id="gog"><span>Google +</span></a></li>
+      </ul> 
+    </div>
+  </div>
 
 </div><!-- Fin contenedor -container -->
-</div>
 
 <!-- footer -->
 <footer class="footer">
   <div class="row">   
-    <div class="icosocial col-lg-12">
+    <div class="col-lg-12">
       <p>©2013 Universidad Peruana Uni&oacute;n - Facultad de Ingeniería y Arquitectura</p>
       <p>Altura Km. 19.5 Carretera Central, Ñaña-Lima <br />
         Telf.: 01-6186300 - Fax 01-6186-339 <br />
         Correo: webmaster.fia@upeu.edu.pe <br />
-        Lima - Perú</p>
-      <br />
-      <ul class="footer-links">        
-      <li><a href="#" id="face"><span>Facebook</span></a></li>
-      <li><a href="#" id="twit"><span>Twitter</span></a></li>
-      <li><a href="#" id="you"><span>Youtube</span></a></li>
-      <li><a href="#" id="gog"><span>Google +</span></a></li>
-      </ul>      
+        Lima - Perú</p>           
     </div>    
   </div>   
 </footer>
-
+</div>
 <script src="js/jquery.js"></script>
   <script src="js/holder.js"></script>
   <script src="Bootstrap/js/bootstrap.js"></script>
