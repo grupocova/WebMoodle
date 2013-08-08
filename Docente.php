@@ -22,7 +22,7 @@
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
     </button>
-    <a class="navbar-brand" href="AulaVirtual.php"><!-- <img src="photos/minilogo_AV.png"  alt=""> -->Aula Virtual</a>
+    <a class="navbar-brand" href="Index.php"><!-- <img src="photos/minilogo_AV.png"  alt=""> -->Aula Virtual</a>
     <div class="nav-collapse collapse md-navbar-collapse">
       <ul class="nav navbar-nav">
         <li><a href="http://www.upeu.edu.pe/" target="_blank">UPeU</a></li>

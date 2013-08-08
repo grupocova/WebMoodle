@@ -66,11 +66,11 @@
         <div class="tab-pane fade in active" id="arq">         
           <div class="media">
             <a class="pull-left" href="#">
-            <img class="media-object" data-src="holder.js/100%x180">
+            <img class="media-object" data-src="holder.js/150x180">
             </a>
           <div class="media-body">
             <h4 class="media-heading">Arquitectura</h4>
-            <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo.Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+            <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo.Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla.</p>
           </div>
           </div>
         </div><!--Fin Arquitectura-->
@@ -79,11 +79,11 @@
         <div class="tab-pane fade" id="ali">
           <div class="media">
             <a class="pull-left" href="#">
-            <img class="media-object" data-src="holder.js/170x190">
+            <img class="media-object" data-src="holder.js/150x180">
             </a>
           <div class="media-body">
             <h4 class="media-heading">Ing. de Alimentos</h4>
-            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+            <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo.Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla.</p>
           </div>
           </div>
         </div><!--Fin Aliemntos-->
@@ -92,11 +92,11 @@
         <div class="tab-pane fade" id="amb">
           <div class="media">
             <a class="pull-left" href="#">
-            <img class="media-object" data-src="holder.js/170x190">
+            <img class="media-object" data-src="holder.js/150x180">
             </a>
           <div class="media-body">
             <h4 class="media-heading">Ing. Ambiental</h4>
-            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+            <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo.Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla.</p>           
           </div>
           </div>
         </div><!--Fin Ambiental-->
@@ -105,11 +105,11 @@
         <div class="tab-pane fade" id="civ">
           <div class="media">
             <a class="pull-left" href="#">
-            <img class="media-object" data-src="holder.js/170x190">
+            <img class="media-object" data-src="holder.js/150x180">
             </a>
           <div class="media-body">
             <h4 class="media-heading">Ing. Civil</h4>
-            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+            <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo.Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla.</p>
           </div>
           </div>
         </div><!--Fin Civil-->
@@ -118,11 +118,11 @@
         <div class="tab-pane fade" id="sis">
           <div class="media">
             <a class="pull-left" href="#">
-            <img class="media-object" data-src="holder.js/170x190">
+            <img class="media-object" data-src="holder.js/150x180">
             </a>
           <div class="media-body">
             <h4 class="media-heading">Ing. de Sistemas</h4>
-            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+            <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo.Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla.</p>
           </div>
           </div>
         </div><!--Fin Sistemas-->
@@ -136,7 +136,7 @@
       <div class="panel-heading head">
         <h3 class="panel-title">Bienvenido</h3>
       </div>
-      <form>
+      <form method="post" action="http://posgrado.upeu.edu.pe/cova/upeu_virtual/login/index.php" target="_top">
         <fieldset>
           <legend>Iniciar Sesion</legend>
           <div class="form-group input-group">
